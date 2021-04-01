@@ -35,7 +35,7 @@ nav {
 .main-visual {
   width: 100%;
   height: 650px;
-  background-image: url(../MySite/img/mv.png);
+  background-image: url(../skil-up-1/img/mv.png);
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -106,22 +106,22 @@ h2 {
   background-position: center;
 }
 .portfolio-img:nth-child(1) {
-  background-image: url(../MySite/img/sketch.jpg);
+  background-image: url(../skil-up-1/img/sketch.jpg);
 }
 .portfolio-img:nth-child(2) {
-  background-image: url(../MySite/img/websuku.png);
+  background-image: url(../skil-up-1/img/websuku.png);
 }
 .portfolio-img:nth-child(3) {
-  background-image: url(../MySite/img/write.jpg);
+  background-image: url(../skil-up-1/img/write.jpg);
 }
 .portfolio-img:nth-child(4) {
-  background-image: url(../MySite/img/webcamp.png);
+  background-image: url(../skil-up-1/img/webcamp.png);
 }
 .portfolio-img:nth-child(5) {
-  background-image: url(../MySite/img/talk.jpg);
+  background-image: url(../skil-up-1/img/talk.jpg);
 }
 .portfolio-img:nth-child(6) {
-  background-image: url(../MySite/img/webcamp-mother.png);
+  background-image: url(../skil-up-1/img/webcamp-mother.png);
 }
 
 .feature-contain {
@@ -161,7 +161,7 @@ h2 {
   width: 1024px;
 }
 .self-img {
-  background-image: url(../MySite/img/my-icon.jpg);
+  background-image: url(../skil-up-1/img/my-icon.jpg);
   background-position: center;
   background-size: contain;
   width: 250px;
@@ -177,9 +177,6 @@ h2 {
 .text {
   width: 512px;
 }
-/* .text{
-  width: 512px;
-} */
 .text h3 {
   font-size: 20px;
   margin-bottom: 5px;
@@ -222,7 +219,6 @@ h2 {
 .sns-icon {
   font-size: 50px;
   margin-right: 20px;
-  /* text-align: center; */
 }
 .sns-icon:last-child {
   margin: 0;
@@ -231,11 +227,11 @@ footer {
   background-color: #ec715f;
   width: 100%;
   height: 60px;
-  text-align: center;
   display: flex;
   justify-content: center;
 }
 footer p {
+  margin: auto 0;
   font-size: 16px;
   color: #fafafa;
 }
@@ -248,11 +244,10 @@ footer p {
   header,
   .nav-title {
     height: 50px;
-    /* width: 90%; */
   }
   .main-visual {
     height: 650px;
-    background-image: url(../MySite/img/code.png);
+    background-image: url(../skil-up-1/img/code.png);
   }
   .mv-title {
     margin-top: 200px;
