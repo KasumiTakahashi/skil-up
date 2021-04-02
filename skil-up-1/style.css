@@ -31,6 +31,10 @@ nav {
   font-size: 16px;
   padding-right: 30px;
 }
+.nav-li a {
+  text-decoration: none;
+  color: #fafafa;
+}
 
 .main-visual {
   width: 100%;
@@ -241,6 +245,43 @@ footer p {
     width: 100%;
     display: block;
   }
+  nav {
+    width: 90%;
+  }
+  .nav-li {
+    display: none;
+  }
+  .menu-btn {
+    /* position: fixed; */
+    top: 5px;
+    /* right: 10px; */
+    display: flex;
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #fafafa;
+    /* z-index: 90; */
+    /* background-color: #3584bb; */
+  }
+  .menu-btn span,
+  .menu-btn span:before,
+  .menu-btn span:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 25px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    position: absolute;
+  }
+  .menu-btn span:before {
+    bottom: 8px;
+  }
+  .menu-btn span:after {
+    top: 8px;
+  }
+
   header,
   .nav-title {
     height: 50px;
